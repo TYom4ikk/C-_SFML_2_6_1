@@ -43,7 +43,7 @@ class MainCharacter : public Object {
 
 private:
     Image images[1]; // Кадры для анимации
-    int currentFrame;
+    
 
 
     float weight;
@@ -54,6 +54,8 @@ private:
     int health;
 
 public:
+
+    int currentFrame;
 
     float width;
     float height;
@@ -66,6 +68,8 @@ public:
 
     MainCharacter(std::string _filename, float _x, float _y, float _scaleX, float _scaleY) :
         Object(_filename, _x, _y, _scaleX, _scaleY) {
+
+        currentFrame = 0;
 
         x = _x;
         y = _y;
@@ -139,7 +143,7 @@ int main()
 
 
     Object object("Img/sky.jpeg", 0, 0, 5, 4);
-    MainCharacter hero("Img/ghost_textures.png", 100, 100, 2, 2);
+    MainCharacter hero("Img/ghost_textures.png", 300, 300, 2, 2);
 
 
     Clock clock;
@@ -159,6 +163,13 @@ int main()
 
         if (Keyboard::isKeyPressed(Keyboard::A)) {
             hero.dir = 1; hero.speed = 0.1;
+            hero.currentFrame = 6;
+           /* hero.currentFrame += 0.005 * time;
+            if (hero.currentFrame > 8) {
+                hero.currentFrame -= 2;
+            }*/
+            hero.setTextureRect(hero.width * int(hero.currentFrame), 0, hero.width, hero.height);
+
         }
         if (Keyboard::isKeyPressed(Keyboard::D)) {
             hero.dir = 0; hero.speed = 0.1;
