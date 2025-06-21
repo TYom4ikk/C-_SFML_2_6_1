@@ -1,51 +1,14 @@
 #include <SFML/Graphics.hpp>
 
+#include "Object.h"
+
 using namespace sf;
-
-class Object {
-
-protected:
-    std::string path;
-    Image image;
-    Texture texture;
-    Sprite sprite;
-    float x, y;
-    float scaleX, scaleY;
-
-public:
-    Object(std::string _filename, float _x, float _y, float _scaleX, float _scaleY) {
-
-        x = _x;
-        y = _y;
-        scaleX = _scaleX;
-        scaleY = _scaleY;
-
-        path = _filename;
-        image.loadFromFile(_filename);
-        texture.loadFromImage(image);
-
-        sprite.setTexture(texture);
-
-        sprite.setPosition(x, y);
-        sprite.setScale(scaleX, scaleY);
-    }
-
-    void setTextureRect(int left, int top, int width, int height) {
-        sprite.setTextureRect(IntRect(left, top, width, height));
-    }
-
-    Sprite getSprite() {
-        return sprite;
-    }
-};
 
 class MainCharacter : public Object {
 
 private:
     Image images[1]; // Кадры для анимации
     
-
-
     float weight;
     float accelertion_free_fall = 9.81;
 
@@ -57,17 +20,15 @@ public:
 
     int currentFrame;
 
-    float width;
-    float height;
-
     float dx;
     float dy;
 
     float speed;
     int dir;
 
-    MainCharacter(std::string _filename, float _x, float _y, float _scaleX, float _scaleY) :
-        Object(_filename, _x, _y, _scaleX, _scaleY) {
+    MainCharacter(std::string _filename, float _x, float _y, float _scaleX, float _scaleY, float _width, float _height,
+        int _health, float _strength, float _weight) :
+        Object(_filename, _x, _y, _scaleX, _scaleY, _width, _height) {
 
         currentFrame = 0;
 
@@ -75,14 +36,18 @@ public:
         y = _y;
         scaleX = _scaleX;
         scaleY = _scaleY;
+        width = _width;
+        height = _height;
+        health = _health;
+        strength = _strength;
+        weight = _weight;
 
         path = _filename;
         image.loadFromFile(_filename);
         texture.loadFromImage(image);
 
         sprite.setTexture(texture);
-        width = 47;
-        height = 48;
+      
         sprite.setTextureRect(IntRect(188, 96, width, height)); // !!!!!
 
         dx = 0;
@@ -142,9 +107,8 @@ int main()
 
 
 
-    Object object("Img/sky.jpeg", 0, 0, 5, 4);
-    MainCharacter hero("Img/ghost_textures.png", 300, 300, 2, 2);
-
+    Object object("Img/sky.jpeg", 0, 0, 5, 4, 474*5, 331*4);
+    MainCharacter hero("Img/ghost_textures.png", 300, 300, 2, 2, 47, 48, 100, 25, 20);
 
     Clock clock;
 
@@ -170,15 +134,33 @@ int main()
             }*/
             hero.setTextureRect(hero.width * int(hero.currentFrame), 0, hero.width, hero.height);
 
+
+            sf::FloatRect bounds = hero.sprite.getLocalBounds();
+            hero.sprite.setOrigin(0.f, 0.f);
+            hero.sprite.setScale(hero.getScaleX(), hero.getScaleY());
+
         }
         if (Keyboard::isKeyPressed(Keyboard::D)) {
             hero.dir = 0; hero.speed = 0.1;
+
+            hero.currentFrame = 6;
+            hero.setTextureRect(hero.width*int(hero.currentFrame), 0, hero.width, hero.height);
+
+            sf::FloatRect bounds = hero.sprite.getLocalBounds();
+            hero.sprite.setOrigin(bounds.width, 0.f);
+            hero.sprite.setScale(-hero.getScaleX(), hero.getScaleY());
+
         }
         if (Keyboard::isKeyPressed(Keyboard::W)) {
             hero.dir = 3; hero.speed = 0.1;
+            hero.currentFrame = 4;
+            hero.setTextureRect(hero.width * int(hero.currentFrame), 0, hero.width, hero.height);
         }
         if (Keyboard::isKeyPressed(Keyboard::S)) {
             hero.dir = 2; hero.speed = 0.1;
+
+            hero.currentFrame = 0;
+            hero.setTextureRect(hero.width * int(hero.currentFrame), 0, hero.width, hero.height);
         }
 
         hero.update(time);
@@ -196,27 +178,27 @@ int main()
 
         std::string pathToMapTexture = "Img/map_textures.png";
 
-        for (int i = 0; i < 24; i++) {
-            for (int j = 0; j < 35; j++) {
-                if (map[i][j] == 1) {
+        //for (int i = 0; i < 24; i++) {
+        //    for (int j = 0; j < 35; j++) {
+        //        if (map[i][j] == 1) {
 
-                    Object grass(pathToMapTexture, currentPositionX, currentPositionY, 1, 1);
-                    grass.setTextureRect(6 * 64, 13 * 64, 64, 64);
-                    window.draw(grass.getSprite());
-                }
-                else if (map[i][j] == 2) {
-                    Object dirt(pathToMapTexture, currentPositionX, currentPositionY, 1, 1);
-                    dirt.setTextureRect(5 * 64, 13 * 64, 64, 64);
-                    window.draw(dirt.getSprite());
-                }
-                else if (map[i][j] == 2) {
-                    // Новый блок
-                }
-                currentPositionX += 64;
-            }
-            currentPositionX = 0;
-            currentPositionY += 64;
-        }
+        //            Object grass(pathToMapTexture, currentPositionX, currentPositionY, 1, 1);
+        //            grass.setTextureRect(6 * 64, 13 * 64, 64, 64);
+        //            window.draw(grass.getSprite());
+        //        }
+        //        else if (map[i][j] == 2) {
+        //            Object dirt(pathToMapTexture, currentPositionX, currentPositionY, 1, 1);
+        //            dirt.setTextureRect(5 * 64, 13 * 64, 64, 64);
+        //            ..window.draw(dirt.getSprite());
+        //        }
+        //        else if (map[i][j] == 2) {
+        //            // Новый блок
+        //        }
+        //        currentPositionX += 64;
+        //    }
+        //    currentPositionX = 0;
+        //    currentPositionY += 64;
+        //}
 
         //=========================
 

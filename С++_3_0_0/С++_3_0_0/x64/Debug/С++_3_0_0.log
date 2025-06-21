@@ -1,33 +1,42 @@
 ﻿  Main.cpp
-C:\Users\Admin\Desktop\C-_SFML_2_6_1\С++_3_0_0\С++_3_0_0\Main.cpp(50,35): warning C4305: инициализация: усечение из "double" в "float"
-C:\Users\Admin\Desktop\C-_SFML_2_6_1\С++_3_0_0\С++_3_0_0\Main.cpp(86,55): warning C4244: аргумент: преобразование "float" в "T", возможна потеря данных
-C:\Users\Admin\Desktop\C-_SFML_2_6_1\С++_3_0_0\С++_3_0_0\Main.cpp(86,55): warning C4244:         with
-C:\Users\Admin\Desktop\C-_SFML_2_6_1\С++_3_0_0\С++_3_0_0\Main.cpp(86,55): warning C4244:         [
-C:\Users\Admin\Desktop\C-_SFML_2_6_1\С++_3_0_0\С++_3_0_0\Main.cpp(86,55): warning C4244:             T=int
-C:\Users\Admin\Desktop\C-_SFML_2_6_1\С++_3_0_0\С++_3_0_0\Main.cpp(86,55): warning C4244:         ]
-C:\Users\Admin\Desktop\C-_SFML_2_6_1\С++_3_0_0\С++_3_0_0\Main.cpp(86,48): warning C4244: аргумент: преобразование "float" в "T", возможна потеря данных
-C:\Users\Admin\Desktop\C-_SFML_2_6_1\С++_3_0_0\С++_3_0_0\Main.cpp(86,48): warning C4244:         with
-C:\Users\Admin\Desktop\C-_SFML_2_6_1\С++_3_0_0\С++_3_0_0\Main.cpp(86,48): warning C4244:         [
-C:\Users\Admin\Desktop\C-_SFML_2_6_1\С++_3_0_0\С++_3_0_0\Main.cpp(86,48): warning C4244:             T=int
-C:\Users\Admin\Desktop\C-_SFML_2_6_1\С++_3_0_0\С++_3_0_0\Main.cpp(86,48): warning C4244:         ]
-C:\Users\Admin\Desktop\C-_SFML_2_6_1\С++_3_0_0\С++_3_0_0\Main.cpp(134,48): warning C4838: Преобразование из "double" в "int" требует сужающего преобразования.
-C:\Users\Admin\Desktop\C-_SFML_2_6_1\С++_3_0_0\С++_3_0_0\Main.cpp(134,48): warning C4244: инициализация: преобразование "double" в "int", возможна потеря данных
-C:\Users\Admin\Desktop\C-_SFML_2_6_1\С++_3_0_0\С++_3_0_0\Main.cpp(135,48): warning C4838: Преобразование из "double" в "int" требует сужающего преобразования.
-C:\Users\Admin\Desktop\C-_SFML_2_6_1\С++_3_0_0\С++_3_0_0\Main.cpp(135,48): warning C4244: инициализация: преобразование "double" в "int", возможна потеря данных
-C:\Users\Admin\Desktop\C-_SFML_2_6_1\С++_3_0_0\С++_3_0_0\Main.cpp(136,48): warning C4838: Преобразование из "double" в "int" требует сужающего преобразования.
-C:\Users\Admin\Desktop\C-_SFML_2_6_1\С++_3_0_0\С++_3_0_0\Main.cpp(136,48): warning C4244: инициализация: преобразование "double" в "int", возможна потеря данных
-C:\Users\Admin\Desktop\C-_SFML_2_6_1\С++_3_0_0\С++_3_0_0\Main.cpp(138,48): warning C4838: Преобразование из "double" в "int" требует сужающего преобразования.
-C:\Users\Admin\Desktop\C-_SFML_2_6_1\С++_3_0_0\С++_3_0_0\Main.cpp(138,48): warning C4244: инициализация: преобразование "double" в "int", возможна потеря данных
-C:\Users\Admin\Desktop\C-_SFML_2_6_1\С++_3_0_0\С++_3_0_0\Main.cpp(139,48): warning C4838: Преобразование из "double" в "int" требует сужающего преобразования.
-C:\Users\Admin\Desktop\C-_SFML_2_6_1\С++_3_0_0\С++_3_0_0\Main.cpp(139,48): warning C4244: инициализация: преобразование "double" в "int", возможна потеря данных
-C:\Users\Admin\Desktop\C-_SFML_2_6_1\С++_3_0_0\С++_3_0_0\Main.cpp(140,48): warning C4838: Преобразование из "double" в "int" требует сужающего преобразования.
-C:\Users\Admin\Desktop\C-_SFML_2_6_1\С++_3_0_0\С++_3_0_0\Main.cpp(140,48): warning C4244: инициализация: преобразование "double" в "int", возможна потеря данных
-C:\Users\Admin\Desktop\C-_SFML_2_6_1\С++_3_0_0\С++_3_0_0\Main.cpp(153,20): warning C4244: инициализация: преобразование "sf::Int64" в "float", возможна потеря данных
-C:\Users\Admin\Desktop\C-_SFML_2_6_1\С++_3_0_0\С++_3_0_0\Main.cpp(165,40): warning C4305: =: усечение из "double" в "float"
-C:\Users\Admin\Desktop\C-_SFML_2_6_1\С++_3_0_0\С++_3_0_0\Main.cpp(171,89): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
-C:\Users\Admin\Desktop\C-_SFML_2_6_1\С++_3_0_0\С++_3_0_0\Main.cpp(171,77): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
-C:\Users\Admin\Desktop\C-_SFML_2_6_1\С++_3_0_0\С++_3_0_0\Main.cpp(171,44): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
-C:\Users\Admin\Desktop\C-_SFML_2_6_1\С++_3_0_0\С++_3_0_0\Main.cpp(175,40): warning C4305: =: усечение из "double" в "float"
-C:\Users\Admin\Desktop\C-_SFML_2_6_1\С++_3_0_0\С++_3_0_0\Main.cpp(178,40): warning C4305: =: усечение из "double" в "float"
-C:\Users\Admin\Desktop\C-_SFML_2_6_1\С++_3_0_0\С++_3_0_0\Main.cpp(181,40): warning C4305: =: усечение из "double" в "float"
+C:\Users\Admin\Desktop\C-_SFML_2_6_1\С++_3_0_0\С++_3_0_0\Main.cpp(13,35): warning C4305: инициализация: усечение из "double" в "float"
+C:\Users\Admin\Desktop\C-_SFML_2_6_1\С++_3_0_0\С++_3_0_0\Main.cpp(51,55): warning C4244: аргумент: преобразование "float" в "T", возможна потеря данных
+C:\Users\Admin\Desktop\C-_SFML_2_6_1\С++_3_0_0\С++_3_0_0\Main.cpp(51,55): warning C4244:         with
+C:\Users\Admin\Desktop\C-_SFML_2_6_1\С++_3_0_0\С++_3_0_0\Main.cpp(51,55): warning C4244:         [
+C:\Users\Admin\Desktop\C-_SFML_2_6_1\С++_3_0_0\С++_3_0_0\Main.cpp(51,55): warning C4244:             T=int
+C:\Users\Admin\Desktop\C-_SFML_2_6_1\С++_3_0_0\С++_3_0_0\Main.cpp(51,55): warning C4244:         ]
+C:\Users\Admin\Desktop\C-_SFML_2_6_1\С++_3_0_0\С++_3_0_0\Main.cpp(51,48): warning C4244: аргумент: преобразование "float" в "T", возможна потеря данных
+C:\Users\Admin\Desktop\C-_SFML_2_6_1\С++_3_0_0\С++_3_0_0\Main.cpp(51,48): warning C4244:         with
+C:\Users\Admin\Desktop\C-_SFML_2_6_1\С++_3_0_0\С++_3_0_0\Main.cpp(51,48): warning C4244:         [
+C:\Users\Admin\Desktop\C-_SFML_2_6_1\С++_3_0_0\С++_3_0_0\Main.cpp(51,48): warning C4244:             T=int
+C:\Users\Admin\Desktop\C-_SFML_2_6_1\С++_3_0_0\С++_3_0_0\Main.cpp(51,48): warning C4244:         ]
+C:\Users\Admin\Desktop\C-_SFML_2_6_1\С++_3_0_0\С++_3_0_0\Main.cpp(99,48): warning C4838: Преобразование из "double" в "int" требует сужающего преобразования.
+C:\Users\Admin\Desktop\C-_SFML_2_6_1\С++_3_0_0\С++_3_0_0\Main.cpp(99,48): warning C4244: инициализация: преобразование "double" в "int", возможна потеря данных
+C:\Users\Admin\Desktop\C-_SFML_2_6_1\С++_3_0_0\С++_3_0_0\Main.cpp(100,48): warning C4838: Преобразование из "double" в "int" требует сужающего преобразования.
+C:\Users\Admin\Desktop\C-_SFML_2_6_1\С++_3_0_0\С++_3_0_0\Main.cpp(100,48): warning C4244: инициализация: преобразование "double" в "int", возможна потеря данных
+C:\Users\Admin\Desktop\C-_SFML_2_6_1\С++_3_0_0\С++_3_0_0\Main.cpp(101,48): warning C4838: Преобразование из "double" в "int" требует сужающего преобразования.
+C:\Users\Admin\Desktop\C-_SFML_2_6_1\С++_3_0_0\С++_3_0_0\Main.cpp(101,48): warning C4244: инициализация: преобразование "double" в "int", возможна потеря данных
+C:\Users\Admin\Desktop\C-_SFML_2_6_1\С++_3_0_0\С++_3_0_0\Main.cpp(103,48): warning C4838: Преобразование из "double" в "int" требует сужающего преобразования.
+C:\Users\Admin\Desktop\C-_SFML_2_6_1\С++_3_0_0\С++_3_0_0\Main.cpp(103,48): warning C4244: инициализация: преобразование "double" в "int", возможна потеря данных
+C:\Users\Admin\Desktop\C-_SFML_2_6_1\С++_3_0_0\С++_3_0_0\Main.cpp(104,48): warning C4838: Преобразование из "double" в "int" требует сужающего преобразования.
+C:\Users\Admin\Desktop\C-_SFML_2_6_1\С++_3_0_0\С++_3_0_0\Main.cpp(104,48): warning C4244: инициализация: преобразование "double" в "int", возможна потеря данных
+C:\Users\Admin\Desktop\C-_SFML_2_6_1\С++_3_0_0\С++_3_0_0\Main.cpp(105,48): warning C4838: Преобразование из "double" в "int" требует сужающего преобразования.
+C:\Users\Admin\Desktop\C-_SFML_2_6_1\С++_3_0_0\С++_3_0_0\Main.cpp(105,48): warning C4244: инициализация: преобразование "double" в "int", возможна потеря данных
+C:\Users\Admin\Desktop\C-_SFML_2_6_1\С++_3_0_0\С++_3_0_0\Main.cpp(117,20): warning C4244: инициализация: преобразование "sf::Int64" в "float", возможна потеря данных
+C:\Users\Admin\Desktop\C-_SFML_2_6_1\С++_3_0_0\С++_3_0_0\Main.cpp(129,40): warning C4305: =: усечение из "double" в "float"
+C:\Users\Admin\Desktop\C-_SFML_2_6_1\С++_3_0_0\С++_3_0_0\Main.cpp(135,89): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
+C:\Users\Admin\Desktop\C-_SFML_2_6_1\С++_3_0_0\С++_3_0_0\Main.cpp(135,77): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
+C:\Users\Admin\Desktop\C-_SFML_2_6_1\С++_3_0_0\С++_3_0_0\Main.cpp(135,44): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
+C:\Users\Admin\Desktop\C-_SFML_2_6_1\С++_3_0_0\С++_3_0_0\Main.cpp(144,40): warning C4305: =: усечение из "double" в "float"
+C:\Users\Admin\Desktop\C-_SFML_2_6_1\С++_3_0_0\С++_3_0_0\Main.cpp(147,87): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
+C:\Users\Admin\Desktop\C-_SFML_2_6_1\С++_3_0_0\С++_3_0_0\Main.cpp(147,75): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
+C:\Users\Admin\Desktop\C-_SFML_2_6_1\С++_3_0_0\С++_3_0_0\Main.cpp(147,43): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
+C:\Users\Admin\Desktop\C-_SFML_2_6_1\С++_3_0_0\С++_3_0_0\Main.cpp(155,40): warning C4305: =: усечение из "double" в "float"
+C:\Users\Admin\Desktop\C-_SFML_2_6_1\С++_3_0_0\С++_3_0_0\Main.cpp(157,89): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
+C:\Users\Admin\Desktop\C-_SFML_2_6_1\С++_3_0_0\С++_3_0_0\Main.cpp(157,77): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
+C:\Users\Admin\Desktop\C-_SFML_2_6_1\С++_3_0_0\С++_3_0_0\Main.cpp(157,44): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
+C:\Users\Admin\Desktop\C-_SFML_2_6_1\С++_3_0_0\С++_3_0_0\Main.cpp(160,40): warning C4305: =: усечение из "double" в "float"
+C:\Users\Admin\Desktop\C-_SFML_2_6_1\С++_3_0_0\С++_3_0_0\Main.cpp(163,89): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
+C:\Users\Admin\Desktop\C-_SFML_2_6_1\С++_3_0_0\С++_3_0_0\Main.cpp(163,77): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
+C:\Users\Admin\Desktop\C-_SFML_2_6_1\С++_3_0_0\С++_3_0_0\Main.cpp(163,44): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
   С++_3_0_0.vcxproj -> C:\Users\Admin\Desktop\C-_SFML_2_6_1\С++_3_0_0\x64\Debug\С++_3_0_0.exe
