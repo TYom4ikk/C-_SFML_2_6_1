@@ -3,6 +3,18 @@
   "WorkspaceRootPath": "C:\\Users\\Admin\\Desktop\\C-_SFML_2_6_1\\\u0421\u002B\u002B_3_0_0\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{A050C864-E88E-4C6F-A7F3-2F96D3AC2B39}|\u0421\u002B\u002B_3_0_0\\\u0421\u002B\u002B_3_0_0.vcxproj|C:\\Users\\Admin\\Desktop\\C-_SFML_2_6_1\\\u0421\u002B\u002B_3_0_0\\\u0421\u002B\u002B_3_0_0\\Object.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A050C864-E88E-4C6F-A7F3-2F96D3AC2B39}|\u0421\u002B\u002B_3_0_0\\\u0421\u002B\u002B_3_0_0.vcxproj|solutionrelative:\u0421\u002B\u002B_3_0_0\\Object.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A050C864-E88E-4C6F-A7F3-2F96D3AC2B39}|\u0421\u002B\u002B_3_0_0\\\u0421\u002B\u002B_3_0_0.vcxproj|C:\\Users\\Admin\\Desktop\\C-_SFML_2_6_1\\\u0421\u002B\u002B_3_0_0\\\u0421\u002B\u002B_3_0_0\\MainCharacter.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A050C864-E88E-4C6F-A7F3-2F96D3AC2B39}|\u0421\u002B\u002B_3_0_0\\\u0421\u002B\u002B_3_0_0.vcxproj|solutionrelative:\u0421\u002B\u002B_3_0_0\\MainCharacter.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A050C864-E88E-4C6F-A7F3-2F96D3AC2B39}|\u0421\u002B\u002B_3_0_0\\\u0421\u002B\u002B_3_0_0.vcxproj|C:\\Users\\Admin\\Desktop\\C-_SFML_2_6_1\\\u0421\u002B\u002B_3_0_0\\\u0421\u002B\u002B_3_0_0\\Object.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A050C864-E88E-4C6F-A7F3-2F96D3AC2B39}|\u0421\u002B\u002B_3_0_0\\\u0421\u002B\u002B_3_0_0.vcxproj|solutionrelative:\u0421\u002B\u002B_3_0_0\\Object.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A050C864-E88E-4C6F-A7F3-2F96D3AC2B39}|\u0421\u002B\u002B_3_0_0\\\u0421\u002B\u002B_3_0_0.vcxproj|C:\\Users\\Admin\\Desktop\\C-_SFML_2_6_1\\\u0421\u002B\u002B_3_0_0\\\u0421\u002B\u002B_3_0_0\\Main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{A050C864-E88E-4C6F-A7F3-2F96D3AC2B39}|\u0421\u002B\u002B_3_0_0\\\u0421\u002B\u002B_3_0_0.vcxproj|solutionrelative:\u0421\u002B\u002B_3_0_0\\Main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
@@ -19,12 +31,51 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Object.h",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\C-_SFML_2_6_1\\\u0421\u002B\u002B_3_0_0\\\u0421\u002B\u002B_3_0_0\\Object.h",
+              "RelativeDocumentMoniker": "\u0421\u002B\u002B_3_0_0\\Object.h",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\C-_SFML_2_6_1\\\u0421\u002B\u002B_3_0_0\\\u0421\u002B\u002B_3_0_0\\Object.h",
+              "RelativeToolTip": "\u0421\u002B\u002B_3_0_0\\Object.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-06-22T07:55:56.307Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainCharacter.cpp",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\C-_SFML_2_6_1\\\u0421\u002B\u002B_3_0_0\\\u0421\u002B\u002B_3_0_0\\MainCharacter.cpp",
+              "RelativeDocumentMoniker": "\u0421\u002B\u002B_3_0_0\\MainCharacter.cpp",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\C-_SFML_2_6_1\\\u0421\u002B\u002B_3_0_0\\\u0421\u002B\u002B_3_0_0\\MainCharacter.cpp",
+              "RelativeToolTip": "\u0421\u002B\u002B_3_0_0\\MainCharacter.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-06-22T07:49:09.839Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Object.cpp",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\C-_SFML_2_6_1\\\u0421\u002B\u002B_3_0_0\\\u0421\u002B\u002B_3_0_0\\Object.cpp",
+              "RelativeDocumentMoniker": "\u0421\u002B\u002B_3_0_0\\Object.cpp",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\C-_SFML_2_6_1\\\u0421\u002B\u002B_3_0_0\\\u0421\u002B\u002B_3_0_0\\Object.cpp",
+              "RelativeToolTip": "\u0421\u002B\u002B_3_0_0\\Object.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-06-22T07:49:24.139Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "Main.cpp",
               "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\C-_SFML_2_6_1\\\u0421\u002B\u002B_3_0_0\\\u0421\u002B\u002B_3_0_0\\Main.cpp",
               "RelativeDocumentMoniker": "\u0421\u002B\u002B_3_0_0\\Main.cpp",
               "ToolTip": "C:\\Users\\Admin\\Desktop\\C-_SFML_2_6_1\\\u0421\u002B\u002B_3_0_0\\\u0421\u002B\u002B_3_0_0\\Main.cpp",
               "RelativeToolTip": "\u0421\u002B\u002B_3_0_0\\Main.cpp",
-              "ViewState": "AgIAADAAAAAAAAAAAAAAADgAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-06-22T07:38:47.474Z",
               "EditorCaption": ""
