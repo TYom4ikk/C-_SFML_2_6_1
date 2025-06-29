@@ -1,87 +1,22 @@
 ﻿  Main.cpp
-C:\Users\Admin\Desktop\C-_SFML_2_6_1\С++_3_0_0\С++_3_0_0\MainCharacter.h(11,35): warning C4305: инициализация: усечение из "double" в "float"
+C:\Users\Admin\Desktop\C-_SFML_2_6_1\С++_3_0_0\С++_3_0_0\Mob.h(10,35): warning C4305: инициализация: усечение из "double" в "float"
   (компиляция исходного файла "Main.cpp")
   
-C:\Users\Admin\Desktop\C-_SFML_2_6_1\С++_3_0_0\С++_3_0_0\MapDrawer.h(31,107): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
-  (компиляция исходного файла "Main.cpp")
-  
-C:\Users\Admin\Desktop\C-_SFML_2_6_1\С++_3_0_0\С++_3_0_0\MapDrawer.h(31,94): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
-  (компиляция исходного файла "Main.cpp")
-  
-C:\Users\Admin\Desktop\C-_SFML_2_6_1\С++_3_0_0\С++_3_0_0\MapDrawer.h(31,70): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
-  (компиляция исходного файла "Main.cpp")
-  
-C:\Users\Admin\Desktop\C-_SFML_2_6_1\С++_3_0_0\С++_3_0_0\MapDrawer.h(31,52): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
-  (компиляция исходного файла "Main.cpp")
-  
-C:\Users\Admin\Desktop\C-_SFML_2_6_1\С++_3_0_0\С++_3_0_0\MapDrawer.h(36,106): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
-  (компиляция исходного файла "Main.cpp")
-  
-C:\Users\Admin\Desktop\C-_SFML_2_6_1\С++_3_0_0\С++_3_0_0\MapDrawer.h(36,93): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
-  (компиляция исходного файла "Main.cpp")
-  
-C:\Users\Admin\Desktop\C-_SFML_2_6_1\С++_3_0_0\С++_3_0_0\MapDrawer.h(36,69): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
-  (компиляция исходного файла "Main.cpp")
-  
-C:\Users\Admin\Desktop\C-_SFML_2_6_1\С++_3_0_0\С++_3_0_0\MapDrawer.h(36,51): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
-  (компиляция исходного файла "Main.cpp")
-  
-C:\Users\Admin\Desktop\C-_SFML_2_6_1\С++_3_0_0\С++_3_0_0\Main.cpp(21,20): warning C4244: инициализация: преобразование "sf::Int64" в "float", возможна потеря данных
-C:\Users\Admin\Desktop\C-_SFML_2_6_1\С++_3_0_0\С++_3_0_0\Main.cpp(33,40): warning C4305: =: усечение из "double" в "float"
-C:\Users\Admin\Desktop\C-_SFML_2_6_1\С++_3_0_0\С++_3_0_0\Main.cpp(39,89): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
-C:\Users\Admin\Desktop\C-_SFML_2_6_1\С++_3_0_0\С++_3_0_0\Main.cpp(39,77): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
-C:\Users\Admin\Desktop\C-_SFML_2_6_1\С++_3_0_0\С++_3_0_0\Main.cpp(39,44): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
-C:\Users\Admin\Desktop\C-_SFML_2_6_1\С++_3_0_0\С++_3_0_0\Main.cpp(48,40): warning C4305: =: усечение из "double" в "float"
-C:\Users\Admin\Desktop\C-_SFML_2_6_1\С++_3_0_0\С++_3_0_0\Main.cpp(51,87): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
-C:\Users\Admin\Desktop\C-_SFML_2_6_1\С++_3_0_0\С++_3_0_0\Main.cpp(51,75): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
-C:\Users\Admin\Desktop\C-_SFML_2_6_1\С++_3_0_0\С++_3_0_0\Main.cpp(51,43): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
-C:\Users\Admin\Desktop\C-_SFML_2_6_1\С++_3_0_0\С++_3_0_0\Main.cpp(59,40): warning C4305: =: усечение из "double" в "float"
-C:\Users\Admin\Desktop\C-_SFML_2_6_1\С++_3_0_0\С++_3_0_0\Main.cpp(61,89): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
-C:\Users\Admin\Desktop\C-_SFML_2_6_1\С++_3_0_0\С++_3_0_0\Main.cpp(61,77): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
-C:\Users\Admin\Desktop\C-_SFML_2_6_1\С++_3_0_0\С++_3_0_0\Main.cpp(61,44): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
+C:\Users\Admin\Desktop\C-_SFML_2_6_1\С++_3_0_0\С++_3_0_0\Main.cpp(26,20): warning C4244: инициализация: преобразование "sf::Int64" в "float", возможна потеря данных
+C:\Users\Admin\Desktop\C-_SFML_2_6_1\С++_3_0_0\С++_3_0_0\Main.cpp(38,40): warning C4305: =: усечение из "double" в "float"
+C:\Users\Admin\Desktop\C-_SFML_2_6_1\С++_3_0_0\С++_3_0_0\Main.cpp(44,89): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
+C:\Users\Admin\Desktop\C-_SFML_2_6_1\С++_3_0_0\С++_3_0_0\Main.cpp(44,77): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
+C:\Users\Admin\Desktop\C-_SFML_2_6_1\С++_3_0_0\С++_3_0_0\Main.cpp(44,44): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
+C:\Users\Admin\Desktop\C-_SFML_2_6_1\С++_3_0_0\С++_3_0_0\Main.cpp(53,40): warning C4305: =: усечение из "double" в "float"
+C:\Users\Admin\Desktop\C-_SFML_2_6_1\С++_3_0_0\С++_3_0_0\Main.cpp(56,87): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
+C:\Users\Admin\Desktop\C-_SFML_2_6_1\С++_3_0_0\С++_3_0_0\Main.cpp(56,75): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
+C:\Users\Admin\Desktop\C-_SFML_2_6_1\С++_3_0_0\С++_3_0_0\Main.cpp(56,43): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
 C:\Users\Admin\Desktop\C-_SFML_2_6_1\С++_3_0_0\С++_3_0_0\Main.cpp(64,40): warning C4305: =: усечение из "double" в "float"
-C:\Users\Admin\Desktop\C-_SFML_2_6_1\С++_3_0_0\С++_3_0_0\Main.cpp(67,89): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
-C:\Users\Admin\Desktop\C-_SFML_2_6_1\С++_3_0_0\С++_3_0_0\Main.cpp(67,77): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
-C:\Users\Admin\Desktop\C-_SFML_2_6_1\С++_3_0_0\С++_3_0_0\Main.cpp(67,44): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
-  MainCharacter.cpp
-C:\Users\Admin\Desktop\C-_SFML_2_6_1\С++_3_0_0\С++_3_0_0\MainCharacter.h(11,35): warning C4305: инициализация: усечение из "double" в "float"
-  (компиляция исходного файла "MainCharacter.cpp")
-  
-C:\Users\Admin\Desktop\C-_SFML_2_6_1\С++_3_0_0\С++_3_0_0\MainCharacter.cpp(25,51): warning C4244: аргумент: преобразование "float" в "T", возможна потеря данных
-C:\Users\Admin\Desktop\C-_SFML_2_6_1\С++_3_0_0\С++_3_0_0\MainCharacter.cpp(25,51): warning C4244:         with
-C:\Users\Admin\Desktop\C-_SFML_2_6_1\С++_3_0_0\С++_3_0_0\MainCharacter.cpp(25,51): warning C4244:         [
-C:\Users\Admin\Desktop\C-_SFML_2_6_1\С++_3_0_0\С++_3_0_0\MainCharacter.cpp(25,51): warning C4244:             T=int
-C:\Users\Admin\Desktop\C-_SFML_2_6_1\С++_3_0_0\С++_3_0_0\MainCharacter.cpp(25,51): warning C4244:         ]
-C:\Users\Admin\Desktop\C-_SFML_2_6_1\С++_3_0_0\С++_3_0_0\MainCharacter.cpp(25,44): warning C4244: аргумент: преобразование "float" в "T", возможна потеря данных
-C:\Users\Admin\Desktop\C-_SFML_2_6_1\С++_3_0_0\С++_3_0_0\MainCharacter.cpp(25,44): warning C4244:         with
-C:\Users\Admin\Desktop\C-_SFML_2_6_1\С++_3_0_0\С++_3_0_0\MainCharacter.cpp(25,44): warning C4244:         [
-C:\Users\Admin\Desktop\C-_SFML_2_6_1\С++_3_0_0\С++_3_0_0\MainCharacter.cpp(25,44): warning C4244:             T=int
-C:\Users\Admin\Desktop\C-_SFML_2_6_1\С++_3_0_0\С++_3_0_0\MainCharacter.cpp(25,44): warning C4244:         ]
-  MapDrawer.cpp
-C:\Users\Admin\Desktop\C-_SFML_2_6_1\С++_3_0_0\С++_3_0_0\MapDrawer.h(31,107): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
-  (компиляция исходного файла "MapDrawer.cpp")
-  
-C:\Users\Admin\Desktop\C-_SFML_2_6_1\С++_3_0_0\С++_3_0_0\MapDrawer.h(31,94): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
-  (компиляция исходного файла "MapDrawer.cpp")
-  
-C:\Users\Admin\Desktop\C-_SFML_2_6_1\С++_3_0_0\С++_3_0_0\MapDrawer.h(31,70): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
-  (компиляция исходного файла "MapDrawer.cpp")
-  
-C:\Users\Admin\Desktop\C-_SFML_2_6_1\С++_3_0_0\С++_3_0_0\MapDrawer.h(31,52): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
-  (компиляция исходного файла "MapDrawer.cpp")
-  
-C:\Users\Admin\Desktop\C-_SFML_2_6_1\С++_3_0_0\С++_3_0_0\MapDrawer.h(36,106): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
-  (компиляция исходного файла "MapDrawer.cpp")
-  
-C:\Users\Admin\Desktop\C-_SFML_2_6_1\С++_3_0_0\С++_3_0_0\MapDrawer.h(36,93): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
-  (компиляция исходного файла "MapDrawer.cpp")
-  
-C:\Users\Admin\Desktop\C-_SFML_2_6_1\С++_3_0_0\С++_3_0_0\MapDrawer.h(36,69): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
-  (компиляция исходного файла "MapDrawer.cpp")
-  
-C:\Users\Admin\Desktop\C-_SFML_2_6_1\С++_3_0_0\С++_3_0_0\MapDrawer.h(36,51): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
-  (компиляция исходного файла "MapDrawer.cpp")
-  
-  Object.cpp
-  Создание кода...
+C:\Users\Admin\Desktop\C-_SFML_2_6_1\С++_3_0_0\С++_3_0_0\Main.cpp(66,89): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
+C:\Users\Admin\Desktop\C-_SFML_2_6_1\С++_3_0_0\С++_3_0_0\Main.cpp(66,77): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
+C:\Users\Admin\Desktop\C-_SFML_2_6_1\С++_3_0_0\С++_3_0_0\Main.cpp(66,44): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
+C:\Users\Admin\Desktop\C-_SFML_2_6_1\С++_3_0_0\С++_3_0_0\Main.cpp(69,40): warning C4305: =: усечение из "double" в "float"
+C:\Users\Admin\Desktop\C-_SFML_2_6_1\С++_3_0_0\С++_3_0_0\Main.cpp(72,89): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
+C:\Users\Admin\Desktop\C-_SFML_2_6_1\С++_3_0_0\С++_3_0_0\Main.cpp(72,77): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
+C:\Users\Admin\Desktop\C-_SFML_2_6_1\С++_3_0_0\С++_3_0_0\Main.cpp(72,44): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
   С++_3_0_0.vcxproj -> C:\Users\Admin\Desktop\C-_SFML_2_6_1\С++_3_0_0\x64\Debug\С++_3_0_0.exe

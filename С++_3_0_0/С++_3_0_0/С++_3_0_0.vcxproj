@@ -131,17 +131,21 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Coordinate.cpp" />
     <ClCompile Include="Main.cpp" />
     <ClCompile Include="MainCharacter.cpp" />
     <ClCompile Include="MapDrawer.cpp" />
     <ClCompile Include="Map_1.cpp" />
     <ClCompile Include="Map_2.cpp" />
+    <ClCompile Include="Mob.cpp" />
     <ClCompile Include="Object.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Coordinate.h" />
     <ClInclude Include="MainCharacter.h" />
     <ClInclude Include="MapDrawer.h" />
     <ClInclude Include="Maps.h" />
+    <ClInclude Include="Mob.h" />
     <ClInclude Include="Object.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
