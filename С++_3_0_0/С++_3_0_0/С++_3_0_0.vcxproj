@@ -133,6 +133,7 @@
   <ItemGroup>
     <ClCompile Include="Main.cpp" />
     <ClCompile Include="MainCharacter.cpp" />
+    <ClCompile Include="MapDrawer.cpp" />
     <ClCompile Include="Map_1.cpp" />
     <ClCompile Include="Map_2.cpp" />
     <ClCompile Include="Object.cpp" />

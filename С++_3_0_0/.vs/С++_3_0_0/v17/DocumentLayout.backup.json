@@ -3,8 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\Admin\\Desktop\\C-_SFML_2_6_1\\\u0421\u002B\u002B_3_0_0\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A050C864-E88E-4C6F-A7F3-2F96D3AC2B39}|\u0421\u002B\u002B_3_0_0\\\u0421\u002B\u002B_3_0_0.vcxproj|C:\\Users\\Admin\\Desktop\\C-_SFML_2_6_1\\\u0421\u002B\u002B_3_0_0\\\u0421\u002B\u002B_3_0_0\\Main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{A050C864-E88E-4C6F-A7F3-2F96D3AC2B39}|\u0421\u002B\u002B_3_0_0\\\u0421\u002B\u002B_3_0_0.vcxproj|solutionrelative:\u0421\u002B\u002B_3_0_0\\Main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{A050C864-E88E-4C6F-A7F3-2F96D3AC2B39}|\u0421\u002B\u002B_3_0_0\\\u0421\u002B\u002B_3_0_0.vcxproj|C:\\Users\\Admin\\Desktop\\C-_SFML_2_6_1\\\u0421\u002B\u002B_3_0_0\\\u0421\u002B\u002B_3_0_0\\MapDrawer.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A050C864-E88E-4C6F-A7F3-2F96D3AC2B39}|\u0421\u002B\u002B_3_0_0\\\u0421\u002B\u002B_3_0_0.vcxproj|solutionrelative:\u0421\u002B\u002B_3_0_0\\MapDrawer.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A050C864-E88E-4C6F-A7F3-2F96D3AC2B39}|\u0421\u002B\u002B_3_0_0\\\u0421\u002B\u002B_3_0_0.vcxproj|C:\\Users\\Admin\\Desktop\\C-_SFML_2_6_1\\\u0421\u002B\u002B_3_0_0\\\u0421\u002B\u002B_3_0_0\\MapDrawer.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A050C864-E88E-4C6F-A7F3-2F96D3AC2B39}|\u0421\u002B\u002B_3_0_0\\\u0421\u002B\u002B_3_0_0.vcxproj|solutionrelative:\u0421\u002B\u002B_3_0_0\\MapDrawer.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,15 +22,34 @@
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MapDrawer.h",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\C-_SFML_2_6_1\\\u0421\u002B\u002B_3_0_0\\\u0421\u002B\u002B_3_0_0\\MapDrawer.h",
+              "RelativeDocumentMoniker": "\u0421\u002B\u002B_3_0_0\\MapDrawer.h",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\C-_SFML_2_6_1\\\u0421\u002B\u002B_3_0_0\\\u0421\u002B\u002B_3_0_0\\MapDrawer.h*",
+              "RelativeToolTip": "\u0421\u002B\u002B_3_0_0\\MapDrawer.h*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-06-29T14:24:21.051Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 98,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Main.cpp",
-              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\C-_SFML_2_6_1\\\u0421\u002B\u002B_3_0_0\\\u0421\u002B\u002B_3_0_0\\Main.cpp",
-              "RelativeDocumentMoniker": "\u0421\u002B\u002B_3_0_0\\Main.cpp",
-              "ToolTip": "C:\\Users\\Admin\\Desktop\\C-_SFML_2_6_1\\\u0421\u002B\u002B_3_0_0\\\u0421\u002B\u002B_3_0_0\\Main.cpp",
-              "RelativeToolTip": "\u0421\u002B\u002B_3_0_0\\Main.cpp",
-              "ViewState": "AgIAADAAAAAAAAAAAAAAADgAAAAJAAAAAAAAAA==",
+              "Title": "MapDrawer.cpp",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\C-_SFML_2_6_1\\\u0421\u002B\u002B_3_0_0\\\u0421\u002B\u002B_3_0_0\\MapDrawer.cpp",
+              "RelativeDocumentMoniker": "\u0421\u002B\u002B_3_0_0\\MapDrawer.cpp",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\C-_SFML_2_6_1\\\u0421\u002B\u002B_3_0_0\\\u0421\u002B\u002B_3_0_0\\MapDrawer.cpp",
+              "RelativeToolTip": "\u0421\u002B\u002B_3_0_0\\MapDrawer.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-06-22T07:38:47.474Z",
+              "WhenOpened": "2025-06-29T14:32:20.53Z",
               "EditorCaption": ""
             }
           ]

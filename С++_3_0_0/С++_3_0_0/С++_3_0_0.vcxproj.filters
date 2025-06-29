@@ -33,6 +33,9 @@
     <ClCompile Include="Map_2.cpp">
       <Filter>Исходные файлы\Maps</Filter>
     </ClCompile>
+    <ClCompile Include="MapDrawer.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Object.h">
